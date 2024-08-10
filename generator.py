@@ -178,5 +178,4 @@ string = string.replace("http://www.wikidata.org/entity/","")
 string = string.replace("},{",",\"occupations\":null}\n{")[1:-1]
 
 with open(path, 'w') as f:
-    #simple_table.to_json('temp.json', orient='records', lines=True)
     f.write(string)
