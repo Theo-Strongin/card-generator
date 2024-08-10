@@ -1,5 +1,3 @@
-# pip install sparqlwrapper
-# https://rdflib.github.io/sparqlwrapper/
 import json
 from operator import contains
 from re import S
